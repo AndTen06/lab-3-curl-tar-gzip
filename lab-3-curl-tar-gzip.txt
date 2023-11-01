@@ -8,19 +8,45 @@ Prequisites:
 **Task 1: Creating a Tar Archive**
 - Open your terminal.
 - Use the `tar` command to create a tar archive of a directory named "myfiles." 
+  new file:   test-file.txt
+new file:   secondary-file.txt
 
 **Task 2: Compressing a Tar Archive**
 - Still in the terminal, use the `gzip` command to compress the "myfiles.tar" archive.
+$ gzip "secondary-file.txt"
+@AndTen06 ➜ ~/gagliga (main) $ gzip -l "secondary.txt.gz
+> gzip -d secondary.txt.gz
 
 **Task 3: Extracting a Tar Archive**
 - Use `tar` to extract the contents from the compressed "myfiles.tar.gz"
+@AndTen06 ➜ /workspaces/lab-3-curl-tar-gzip (main) $ 'tar secondary-file.txt
+> lab-3-curl-tar-gzip.txt
+> bash
+> bash gagliga
 
 **Task 4: Downloading a File with Curl**
 - With `curl`, download a file from a URL. Find an image url that ends with jpg, png, gif on the internet and download it using curl 
-
+@AndTen06 ➜ /workspaces/lab-3-curl-tar-gzip (main) $ code lab-3-curl-tar-gzip.txt
+@AndTen06 ➜ /workspaces/lab-3-curl-tar-gzip (main) $ echo "EMPJ6098"
+EMPJ6098
+@AndTen06 ➜ /workspaces/lab-3-curl-tar-gzip (main) $ sh lab-3-curl-tar-gzip.txt
 
 **Task 5: Sending a GET Request with Curl**
 Use curl to fetch basic information about your current weather. You can use a weather service's API. the url is wttr.in do not download it, just output it to the terminal.
-
+  \   /     Clear
+       .-.      10 °C          
+    ― (   ) ―   ↓ 7 km/h       
+       `-’      16 km          
+      /   \     0.0 mm         
+                                                       ┌─────────────┐                                                       
+┌──────────────────────────────┬───────────────────────┤  Tue 31 Oct ├───────────────────────┬──────────────────────────────┐
+│            Morning           │             Noon      └──────┬──────┘     Evening           │             Night            │
+├──────────────────────────────┼──────────────────────────────┼──────────────────────────────┼──────────────────────────────┤
+│     \   /     Sunny          │     \   /     Sunny          │     \   /     Sunny          │     \   /     Clear          │
+│      .-.      +4(3) °C       │      .-.      19 °C          │      .-.      18 °C          │      .-.      8 °C           │
+│   ― (   ) ―   ↖ 3-6 km/h     │   ― (   ) ―   ↗ 1 km/h       │   ― (   ) ―   → 0-1 km/h     │   ― (   ) ―   ↑ 4-9 km/h     │
+│      `-’      10 km          │      `-’      10 km          │      `-’      10 km          │      `-’      10 km          │
+│     /   \     0.0 mm | 0%    │     /   \     0.0 mm | 0%    │     /   \     0.0 mm | 0%    │     /   \     0.0 mm | 0%    │
+└──────────────────────────────┴──────────────────────────────┴──────────────────────────────┴──────
 
 Check the last video it should give you the answer to these questions.
